@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quick List</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" >
+</head>
+<body>
+    <header>
+        <h1>Quick List</h1>
+        <nav>
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/login">Login</a>
+        </nav>
+    </header>
+    <br/>
+    <form action="/quickList">
+        <label for="item">Item
+            <input type="text" id="item" name="item" placeholder="Bananas"/>
+        </label>
+
+        <label for="qty">Qty
+            <input type="number" id="qty" name="qty" min="1" value="1"/>
+        </label>
+        <label></label>
+
+        <button type="submit">add</button>
+    </form>
+</body>
+</html>

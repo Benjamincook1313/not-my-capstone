@@ -1,0 +1,26 @@
+
+body {
+    display: flex;
+    align-items: center;
+    width: 99vw;
+    height: 100vh;
+    flex-direction: column;
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
