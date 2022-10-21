@@ -1,4 +1,4 @@
-package com.smartList.proj.Service;
+package com.webApp.demo.Service;
 
 public class UserAuth {
 

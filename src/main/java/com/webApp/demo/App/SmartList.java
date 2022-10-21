@@ -1,4 +1,4 @@
-package com.smartList.proj.App;
+package com.webApp.demo.App;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

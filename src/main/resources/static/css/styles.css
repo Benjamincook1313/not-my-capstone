@@ -1,10 +1,27 @@
 
+
 body {
     display: flex;
     align-items: center;
-    width: 99vw;
+    width: 99.99vw;
     height: 100vh;
     flex-direction: column;
+    border: 50px double black;
+    box-sizing: border-box;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    position: sticky;
+    top: -50px;
+}
+h1{
+    margin: 10px;
+    color: rgb(0,175,255);
+}
+h2,h3,h4,h5,h6,p{
+    margin: 10px;
+
 }
 section {
     display: flex;
@@ -12,15 +29,47 @@ section {
     flex-direction: column;
     height: 150px;
 }
-
 form {
     border: 2px solid black;
     border-radius: 10px;
-    padding: 20px;
-    height: 150px;
-    width: 300px;
+    padding: 10px 20px;
+    min-height: 150px;
+    min-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     box-sizing: border-box;
+    text-align: left;
+}
+nav {
+    width: 450px;
+    background-color: #bada55;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 5px dotted black;
+
+}
+select{
+    height: 22px;
+
+}
+img {
+    max-height: 200px;
+    box-shadow: 15px 15px 15px;
+
+}
+span{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 18px;
+    margin: 20px 0px;
+}
+.qty {
+    width: 60px;
 }

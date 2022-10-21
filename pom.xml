@@ -11,13 +11,14 @@
 	<groupId>com.smartList.proj</groupId>
 	<artifactId>smartList</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-<!--	<packaging>war</packaging>-->
-	<name>smartList</name>
-	<description>Java/Spring-Boot Capstone-project</description>
+	<packaging>war</packaging>
+	<name>SmartList</name>
+	<description>Java/Spring-Boot Capstone Project</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>

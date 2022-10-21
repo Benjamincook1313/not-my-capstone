@@ -1,7 +1,6 @@
-package com.smartList.proj;
+package com.webApp.demo;
 
-import com.smartList.proj.repository.SpringDataRepository;
-import org.slf4j.Logger;
+import com.webApp.demo.repository.SpringDataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

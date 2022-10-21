@@ -1,4 +1,4 @@
-package com.smartList.proj;
+package com.webApp.demo;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

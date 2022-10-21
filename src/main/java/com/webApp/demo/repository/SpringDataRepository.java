@@ -1,6 +1,7 @@
-package com.smartList.proj.repository;
+package com.webApp.demo.repository;
 
-import com.smartList.proj.Entity.Item;
+import com.webApp.demo.Entity.Item;
+import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SpringDataRepository

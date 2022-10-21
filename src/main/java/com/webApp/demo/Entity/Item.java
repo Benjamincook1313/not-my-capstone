@@ -1,4 +1,4 @@
-package com.smartList.proj.Entity;
+package com.webApp.demo.Entity;
 
 import javax.persistence.*;
 @Entity

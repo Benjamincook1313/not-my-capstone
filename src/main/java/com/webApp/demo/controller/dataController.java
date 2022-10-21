@@ -1,4 +1,4 @@
-package com.smartList.proj.controller;
+package com.webApp.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
